@@ -1,0 +1,15 @@
+[package]
+name = "sample_plugin"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+
+[lib]
+# cdylib is for VST3 (?)
+# lib is for standalone
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+nih_plug = { git = "https://github.com/robbert-vdh/nih-plug.git", features = ["assert_process_allocs", "standalone"] }
+nih_plug_iced = { git = "https://github.com/robbert-vdh/nih-plug.git" }
+atomic_float = "1.1.0"

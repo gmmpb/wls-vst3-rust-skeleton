@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "xtask",
+    "sample_plugin"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["Mark Gemesi <hello@weblabstudio.hu>"]
