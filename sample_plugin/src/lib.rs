@@ -9,5 +9,5 @@ pub mod plugin;
 pub use plugin::gain::Gain;
 
 // Register plugin format exports
-nih_export_clap!(Gain);
+// nih_export_clap!(Gain);
 nih_export_vst3!(Gain);

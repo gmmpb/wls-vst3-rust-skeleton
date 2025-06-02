@@ -5,7 +5,7 @@ use std::num::NonZeroU32;
 pub struct PluginMetadata;
 
 impl PluginMetadata {
-    pub const NAME: &'static str = "Sample Plugin - WLS Mark";
+    pub const NAME: &'static str = "Sample Plugin - WLS";
     pub const VENDOR: &'static str = "weblabstudio.hu";
     pub const URL: &'static str = "https://weblabstudio.hu";
     pub const EMAIL: &'static str = "hello@weblabstudio.hu";

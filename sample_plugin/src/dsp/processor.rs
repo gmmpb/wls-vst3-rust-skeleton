@@ -17,7 +17,7 @@ pub fn process_samples(
 
         let gain = params.gain.smoothed.next();
         for sample in channel_samples {
-            *sample *= gain;
+            *sample += gain;
             amplitude += *sample;
         }
 
